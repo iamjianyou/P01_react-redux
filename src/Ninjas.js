@@ -20,7 +20,14 @@ const Ninjas = ({ninjas, iClick, deleteNinja}) => {
 
   // });
   
-  
+    /** container_component / class based compoent containes state
+   *          has Render method
+   *          automatically attaches to the instance of them by using this.propos
+   * 
+   * function_component: primarily concerend with UI with stateless
+   *           no Render method
+   *           pass props as a Parameter to them by using props, then asigine it ot a new object variable            
+   */
   return (
     <div className="ninja-list">
       { 
