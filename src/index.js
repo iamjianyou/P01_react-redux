@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+// render the root component to the element inside the indext file 'root' frim index.html
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
